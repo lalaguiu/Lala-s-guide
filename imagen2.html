@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy Liang - Lala's Guide</title>
+    <!-- Integración de la tipografía Open Sans desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Incluir Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* CSS para el estilo de la página */
+        body {
+            background-color: #000000; /* Fondo negro */
+            color: #FFFFFF;            /* Letras blancas */
+            font-family: 'Open Sans', sans-serif; /* Usar tipografía Open Sans */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #FFB6C1; /* Título en color rosado pastel */
+        }
+        nav {
+            background-color: #444444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #FFB6C1; /* Color rosado pastel para el ícono */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 24px; /* Tamaño del ícono */
+        }
+        nav a:hover {
+            color: #FFFFFF; /* Cambiar a blanco al pasar el ratón */
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .row article {
+            margin: 10px;
+            text-align: center;
+        }
+        /* Contenedor de la imagen y la descripción */
+        .image-description-container {
+            display: flex; /* Usa flexbox para alinear en fila */
+            align-items: flex-start; /* Alinea la imagen y la descripción al inicio (parte superior) */
+            margin-bottom: 10px; /* Espacio debajo del contenedor */
+        }
+        .image-description-container img {
+            width: 100%;
+            max-width: 150px; /* Ajusta el tamaño máximo de la imagen */
+            height: auto;
+            margin-right: 15px; /* Espacio entre la imagen y la descripción */
+        }
+        .description {
+            color: #FFFFFF; /* Color blanco para la descripción */
+            font-size: 12px;
+            text-align: left; /* Alinea el texto a la izquierda */
+            max-width: 300px; /* Limita el ancho de la descripción */
+        }
+        article h2 {
+            color: #FFB6C1; /* Título en color rosado pastel */
+            margin: 10px 0; /* Margen para separar el título de la imagen */
+        }
+        footer {
+            background-color: #333333;
+            text-align: center;
+            padding: 8px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            max-width: 1200px; /* Establece el ancho máximo deseado */
+            margin: 0 auto; /* Centra el footer horizontalmente */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lala's Guide.</h1>
+    </header>
+
+    <nav>
+        <!-- Usar el ícono de casa de Font Awesome -->
+        <a href="index.html"><i class="fas fa-home"></i></a>
+    </nav>
+
+    <main>
+        <div class="row">
+            <article>
+                <div class="image-description-container">
+                    <img src="imagen2.jpg" alt="Imagen de Sandy Liang">
+                    <p class="description">Diseñadora de moda con sede en Nueva York, conocida por su enfoque contemporáneo y lúdico en el diseño. Utiliza técnicas como el drapeado y la personalización textil, junto con detalles artesanales y un estilo inspirado en la moda de los años 90. Sus colecciones se caracterizan por un enfoque fresco y casual, combinando elementos de la cultura pop y la moda urbana con una estética sofisticada. Liang explora temas como la nostalgia y la identidad personal, dando lugar a piezas que son a la vez elegantes y accesibles.</p>
+                </div>
+                <h2>Sandy Liang</h2>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Lala's Guide 2024. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

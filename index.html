@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lala's Guide.</title>
+    <!-- Integración de la tipografía Open Sans desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Incluir Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* CSS para el estilo de la página */
+        body {
+            background-color: #000000; /* Fondo negro */
+            color: #FFFFFF;            /* Letras blancas */
+            font-family: 'Open Sans', sans-serif; /* Usar tipografía Open Sans */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #FFB6C1; /* Título en color rosado pastel */
+        }
+        nav {
+            background-color: #444444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #FFB6C1; /* Color rosado pastel para el ícono */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 24px; /* Tamaño del ícono */
+        }
+        nav a:hover {
+            color: #FFFFFF; /* Cambiar a blanco al pasar el ratón */
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .row article {
+            margin: 10px;
+            text-align: center;
+        }
+        .row img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            cursor: pointer;
+        }
+        article h2 {
+            color: #FFB6C1; /* Título en color rosado pastel */
+        }
+        footer {
+            background-color: #333333;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lala's Guide.</h1>
+    </header>
+
+    <nav>
+        <!-- Usar el ícono de casa de Font Awesome -->
+        <a href="#inicio"><i class="fas fa-home"></i></a>
+        <!-- Nueva pestaña con ícono de advertencia -->
+        <a href="descripcion.html"><i class="fas fa-exclamation-circle"></i></a>
+    </nav>
+
+    <main>
+        <!-- Primera fila de imágenes con títulos -->
+        <div class="row">
+            <article>
+                <a href="imagen1.html"><img src="imagen1.jpg" alt="Imagen de Tendencias de Verano"></a>
+                <h2>Iris Van Herpen.</h2>
+            </article>
+            <article>
+                <a href="imagen2.html"><img src="imagen2.jpg" alt="Imagen de Moda Sostenible"></a>
+                <h2>Sandy Liang.</h2>
+            </article>
+            <article>
+                <a href="imagen3.html"><img src="imagen3.jpg" alt="Imagen de Moda Urbana"></a>
+                <h2>Shushu Tong.</h2>
+            </article>
+        </div>
+
+        <!-- Segunda fila de imágenes con títulos -->
+        <div class="row">
+            <article>
+                <a href="imagen4.html"><img src="imagen4.jpg" alt="Imagen de Accesorios"></a>
+                <h2>Guayaba Agria.</h2>
+            </article>
+            <article>
+                <a href="imagen5.html"><img src="imagen5.jpg" alt="Imagen de Moda Clásica"></a>
+                <h2>Acne Studios.</h2>
+            </article>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; Lala's Guide 2024. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
